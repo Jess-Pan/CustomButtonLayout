@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.android.custombuttonlayout.CustomButtonLayout
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:centerButtonImageView="@drawable/custom_center_image_view"
+        app:centerButtonTitle="@string/description_search_button"
+        app:leftButtonImageView="@drawable/custom_left_image_view"
+        app:rightButtonImageView="@drawable/custom_right_image_view"
+        app:leftButtonTitle="@string/description_add_contact"
+        app:rightButtonTitle="@string/str_menu"
+        app:centerButtonTitleColor="@drawable/custom_title"
+        app:leftButtonTitleColor="@drawable/custom_title" />
+
+</LinearLayout>

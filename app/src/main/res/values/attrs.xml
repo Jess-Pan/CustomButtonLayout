@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomButtonLayout">
+        <attr name="leftButtonImageView" format="reference"/>
+        <attr name="leftButtonTitleColor" format="reference|color"/>
+        <attr name="centerButtonImageView" format="reference"/>
+        <attr name="centerButtonTitleColor" format="reference|color"/>
+        <attr name="rightButtonImageView" format="reference"/>
+        <attr name="rightButtonTitleColor" format="reference|color"/>
+        <attr name="leftButtonTitle" format="string"/>
+        <attr name="centerButtonTitle" format="string"/>
+        <attr name="rightButtonTitle" format="string"/>
+    </declare-styleable>
+</resources>

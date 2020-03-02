@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/leftLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:focusable="true"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:id="@+id/leftImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:duplicateParentState="true"/>
+
+        <TextView
+            android:id="@+id/leftTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:duplicateParentState="true"
+            android:textColor="@drawable/custom_title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/centerLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:focusable="true"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/centerImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:duplicateParentState="true"/>
+
+        <TextView
+            android:id="@+id/centerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:duplicateParentState="true"
+            android:textColor="@drawable/custom_title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rightLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:focusable="true"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/rightImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:duplicateParentState="true"/>
+
+        <TextView
+            android:id="@+id/rightTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:duplicateParentState="true"
+            android:textColor="@drawable/custom_title"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
